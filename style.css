@@ -12,7 +12,6 @@ body {
 .main-container {
   display: flex;
   height: 100%;
-  overflow: hidden;
 }
 
 .background-container {
@@ -41,7 +40,7 @@ body {
 }
 
 .form-description {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bold;
   margin: 8vh 5vh 8vh 5vh;
 }
@@ -57,8 +56,10 @@ input {
   width: 100%;
   border: solid 1px #e5e7eb;
   border-radius: 4px;
-  &:invalid {
+
+  &:invalid:focus {
     border-color: red;
+    box-shadow: none;
   }
 
   &:focus {
@@ -75,6 +76,7 @@ label {
 }
 
 button {
+  margin-bottom: 1vh;
   border: 0px;
   border-radius: 4px;
   width: 10vw;
