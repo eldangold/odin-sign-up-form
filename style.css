@@ -50,6 +50,7 @@ input {
 }
 
 label {
+  text-transform: uppercase;
   flex-basis: 40%;
   margin-bottom: 2vh;
 }
