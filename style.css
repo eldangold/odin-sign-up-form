@@ -27,15 +27,16 @@ body {
 
 .form {
   padding: 5vh;
-  height: 25vh;
+  min-height: 25vh;
   margin-bottom: 5vh;
   background-color: white;
   box-shadow: 5px 10px 10px #dbdcdd;
 }
 
 .form-description {
+  font-size: 1.8em;
   font-weight: bold;
-  margin: 10vh 5vh 10vh 5vh;
+  margin: 8vh 5vh 8vh 5vh;
 }
 
 #form {
@@ -50,6 +51,7 @@ input {
 
 label {
   flex-basis: 40%;
+  margin-bottom: 2vh;
 }
 
 button {
@@ -63,11 +65,17 @@ button {
 }
 
 button,
-p {
+.log-in {
   margin-left: 5vh;
 }
 
 a {
   text-decoration: none;
   color: #8da65b;
+}
+
+.call-to-action {
+  margin: 0 0 5vh 0;
+  font-size: 1.8em;
+  font-weight: bold;
 }
