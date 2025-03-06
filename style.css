@@ -16,6 +16,8 @@ body {
 }
 
 .background-container {
+  display: flex;
+  justify-content: center;
   width: 30%;
 }
 
@@ -87,7 +89,7 @@ button,
   margin-left: 5vh;
 }
 
-a {
+.log-in > a {
   text-decoration: none;
   color: #8da65b;
 }
@@ -110,9 +112,16 @@ a {
   width: 30%;
   position: absolute;
   top: 20vh;
-  box-sizing: border-box;
-
   & > img {
     height: 2em;
+  }
+}
+
+.photo-credits {
+  top: 93vh;
+  position: absolute;
+  color: white;
+  > a {
+    color: white;
   }
 }
