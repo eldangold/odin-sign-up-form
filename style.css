@@ -31,7 +31,7 @@ body {
 }
 
 .form {
-  padding: 5vh;
+  padding: 2vh 5vh 2vh;
   min-height: 25vh;
   margin-bottom: 5vh;
   background-color: white;
@@ -51,6 +51,7 @@ body {
 }
 
 input {
+  height: 80%;
   width: 100%;
   border: solid 1px #e5e7eb;
   border-radius: 4px;
@@ -68,7 +69,7 @@ input {
 label {
   text-transform: uppercase;
   flex-basis: 40%;
-  margin-bottom: 2vh;
+  margin-bottom: 4vh;
 }
 
 button {
